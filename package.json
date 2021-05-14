@@ -1,0 +1,23 @@
+{
+  "name": "js_discord",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "@r6stats/node": "^4.0.0-alpha3",
+    "discord": "^0.8.2",
+    "discord.js": "^12.5.3",
+    "dotenv": "^8.2.0",
+    "mysql": "^2.18.1",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/main.js",
+    "dev": "nodemon ./src/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
