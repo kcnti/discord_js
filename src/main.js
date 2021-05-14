@@ -6,9 +6,9 @@ const mysql = require('mysql')
 
 let db = mysql.createConnection({
     host:       'localhost', 
-    user:       'kanti',
-    password:   'Kikuanone1234!',
-    database:   'Discord'
+    user:       '',
+    password:   '',
+    database:   ''
 });
 db.connect();
 
